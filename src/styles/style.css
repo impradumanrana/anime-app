@@ -1,0 +1,47 @@
+
+  
+  .customcard {
+    width: 200px; border: 0; background-color: #fff;
+    height: 300px; margin: 20px 10px; padding: 0; border-radius: 10px; position: relative;
+  } 
+
+
+  
+  
+  .customcard .imgdiv{ width: 100%; border-top-right-radius: 10px; border-top-left-radius: 10px;
+    min-height: 250px; background-size: cover; }
+.card.customcard:hover{
+    
+        scale: 1.3;
+        animation: 2s;
+        transition: ease;
+        z-index: 99;
+
+    }
+
+
+
+    .hiddendivinfo p{ margin: 0; }
+
+    .hiddendivinfo{ display: none; opacity: 0; }
+
+    .customcard:hover  .hiddendivinfo {
+        display: block; opacity: 1; font-size: 12px;
+    }
+
+.ranking {
+        position: itabsolute;
+        background: #df8998;
+        padding: 7px 10px;
+        right: 0;
+        top: 0;
+        border-top-right-radius: 10px;
+    }
+    .cardinfo h5 {
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .cardinfo{ border-radius: 10px; padding: 10px;
+    background-color: #fff; }
